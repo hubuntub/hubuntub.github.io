@@ -79,5 +79,5 @@ theme: houbeb
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@bitbucket.org:begona26/begona26.bitbucket.org.git
-  branch: aerobatic
+  repo: git@github.com:hubuntub/hubuntub.github.io.git
+  branch: master
