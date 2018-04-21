@@ -1,38 +1,34 @@
 ---
-title: Hello World
+title: Hello, my name is Houbeb 
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Welcome to my website.
 
 ## Quick Start
 
-### Create a new post
+### I am from Tunisia and I came to Paris in 2008
 
-``` bash
-$ hexo new "My New Post"
+``` javascript
+() => "I was born in Hammamet, I lived in Bordeaux for almost 5 years and I now live in Paris";
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
 
-### Run server
+### I enjoy code && I love design
 
-``` bash
-$ hexo server
+``` javascript
+() => "I love working with UX and coding";
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
 
-### Generate static files
+### I love biking
 
-``` bash
-$ hexo generate
+``` javascript
+() => "Biking is a part of my life";
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
 
-### Deploy to remote sites
+### I love nature
 
-``` bash
-$ hexo deploy
+``` javascript
+() => "Who doesn't";
 ```
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)

@@ -135,6 +135,7 @@ section {
 	padding-top: 60px;
 	z-index: 4;
 }
+
 a,
 a:hover,
 a:active,
@@ -143,6 +144,9 @@ a:visited,
 a:link {
 	color: #151515;
 	text-decoration: none;
+}
+.logo a i {
+	color: #fff;
 }
 [class*="col-"] {
 	padding-top: 15px;
@@ -473,6 +477,7 @@ a.custom-button span {
 * Autohiding Navbar, (all pages)
 ******************************************************* */
 .logo {
+	color: #fff;
 	position: absolute;
 	display: block;
 	top: 50%;
@@ -490,6 +495,14 @@ a.custom-button span {
 	-o-transition: all ease .2s;
 	transition: all ease .2s;
 }
+.bicycle-logo {
+	width: 35px;
+	height: 35px;
+	display: block;
+	background-color: #fff;
+	mask: url("../img/bicycle.svg") no-repeat center;
+	-webkit-mask: url("../img/bicycle.svg") no-repeat center;
+} 
 .logo img:hover {
 	display:block;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
@@ -524,7 +537,8 @@ a.custom-button span {
 	display: block;
 	padding:0px 10px;
 	margin:23px 0px;
-	color: #151515;
+	/*color: #151515;*/
+	color: #fff;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -536,7 +550,8 @@ a.custom-button span {
 }
 .navbar .nav li.nolink {
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	color: #151515;
+	/*color: #151515;*/
+	color: #fff;
 	font-weight: 400;
 	text-shadow: none;
 	letter-spacing: 1px;
@@ -558,6 +573,7 @@ nav i.icon-basic-eye {
 }
 .navbar-inner {
 	background-color: transparent;
+	background-color: rgba(35,35,35,.6);
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
 	-o-transition: background-color 400ms linear;
@@ -568,17 +584,18 @@ nav i.icon-basic-eye {
 	border-bottom: none;
 }
 #blog-post .navbar-inner {
-	background-color: #fff;
-	background-color: rgba(255,255,255,.9);
+	background-color: #151515;
+	background-color: rgba(25,25,25,.9);
 }
 .lightnav .navbar-inner.lightnav-alt .nav > li > a,
 .lightnav .navbar-inner.lightnav-alt .learnmore {
-	color: #151515;
+	/*color: #151515;*/
+	color: #fff;
 }
 /* Changes nav background color to white on scroll */
 .navbar-inner.lightnav-alt {
-	background-color: #fff;
-    background-color: rgba(255,255,255,.9)
+	background-color: #151515;
+	background-color: rgba(25,25,25,.9);
 }
 @media (max-width: 1024px) {
 	.navbar-inner.lightnav-alt {
@@ -634,7 +651,7 @@ nav i.icon-basic-eye {
 	padding-right: 74px;
 	top: 14px;
 	z-index: 1060;
-	color: #151515;
+	color: #fff;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -695,7 +712,7 @@ button.navbar-toggle .icon-bar {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	background-color: #151515;
+	background-color: #fff;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease .2s;
 	-o-transition: all ease .2s;
@@ -852,13 +869,14 @@ span.sb-caret { /* Caret Down */
 	padding-top: 0;
 }
 #hero h2 {
-	color: #151515;
+	color: #fff;
+	background-color: rgba(5,5,5,.8);
 	margin-bottom: 20px;
 	display: inline-block;
 	padding: 14px;
 }
 #hero p {
-	color: #333;
+	color: #fff;
 	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-size: 18px;
 	display: inline-block;
@@ -1683,9 +1701,43 @@ a.flex-next {
 * Process timelime, (homepage)
 ******************************************************* */
 
+
+/* Background */
+
+.color1{
+	background-color: rgba(29, 42, 77, 1) !important;
+}
+
+.color2{
+	background-color: rgba(41, 50, 81, 1)!important;
+}
+
+.color3{
+	background-color: rgba(28, 37, 65, 1) !important;
+	
+}
+.color4{
+	background-color: rgba(58, 80, 107, 1) !important;
+}
+
+.color5{
+	background-color: rgba(35, 68, 111, 1)!important;
+}
+
+.color6{
+	background-color:rgba(66, 126, 152, 1)!important;
+}
+
+.color7{
+	background-color: rgba(88, 151, 158, 1)!important;
+}
+
+.color8{
+	background-color: rgba(231, 236, 239, 1)!important;
+}
+
 #process {
 	padding: 80px 0;
-	background-color: #fff;
 }
 #process .col-md-2 i {
 	font-size: 50px;
@@ -1709,7 +1761,7 @@ a.flex-next {
 	position: absolute;
 	display: block;
 	width: 4px;
-	background: #f5f5f6;
+	background: rgba(41, 50, 81, 1);
 	/*left: 50%;*/
 	top: 50px;
 	bottom: 50px;
@@ -1775,7 +1827,8 @@ a.flex-next {
 	transform: rotate(180deg);
 }
 .timeline-label p {
-	font-family: Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+	color: rgba(231, 236, 239, 1);
 	margin-bottom: 3px
 }
 #process .timeline-centered .timeline-entry .timeline-entry-inner {
@@ -1810,8 +1863,8 @@ a.flex-next {
 	font-size: 12px;
 }
 #process .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-	background: #fff;
-	color: #737881;
+	background: rgba(41, 50, 81, 1);
+	color: #fff;
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -1822,7 +1875,7 @@ a.flex-next {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	text-align: center;
-	border: 4px solid #F5F5F6;
+	border: 4px solid rgba(41, 50, 81, 1);
 	line-height: 40px;
 	font-size: 15px;
 	float: left;
@@ -1837,7 +1890,6 @@ a.flex-next {
 }
 #process .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
-	background: #eee;
 	padding: 30px;
 	margin-left: 60px;
 	-webkit-background-clip: padding-box;
@@ -1861,11 +1913,40 @@ a.flex-next {
 	margin-top: -9px;
 	margin-left: -9px;
 }
+
+#process .timeline-centered .timeline-entry .timeline-entry-inner .color1.timeline-label:after {
+	border-color: transparent rgba(29, 42, 77, 1) transparent transparent;
+}
+
+#process .timeline-centered .timeline-entry .timeline-entry-inner .color2.timeline-label:after {
+	border-color: transparent rgba(41, 50, 81, 1) transparent transparent;
+}
+
+#process .timeline-centered .timeline-entry .timeline-entry-inner .color3.timeline-label:after {
+	border-color: transparent rgba(28, 37, 65, 1) transparent transparent;
+}
+
+#process .timeline-centered .timeline-entry .timeline-entry-inner .color4.timeline-label:after {
+	border-color: transparent rgba(58, 80, 107, 1) transparent transparent;
+}
+
+#process .timeline-centered .timeline-entry .timeline-entry-inner .color5.timeline-label:after {
+	border-color: transparent rgba(35, 68, 111, 1) transparent transparent;
+}
+
+#process .timeline-centered .timeline-entry .timeline-entry-inner .color6.timeline-label:after {
+	border-color: transparent rgba(66, 126, 152, 1) transparent transparent;
+}
+
+#process .timeline-centered .timeline-entry .timeline-entry-inner .color7.timeline-label:after {
+	border-color: transparent rgba(88, 151, 158, 1) transparent transparent;
+}
+
 #process .line {
   position: absolute;
   display: block;
   width: 4px;
-  background: #eee;
+  background: rgba(41, 50, 81, 1);;
   top: -10%;
   right: -30px;
   height: 120%;
@@ -1876,9 +1957,9 @@ a.flex-next {
   font-size: 14px;
   font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
   font-style: italic;
-  color: #333;
+  background: rgba(41, 50, 81, 1);
+  color: #fff;
   padding: 10px;
-  background-color: #eee;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1893,7 +1974,7 @@ a.flex-next {
   width: 0;
   position: absolute;
   border-color: rgba(136, 183, 213, 0);
-  border-left-color: #eee;
+  border-left-color: rgba(41, 50, 81, 1);;
   border-width: 10px;
   margin-top: -10px
 }
@@ -1915,27 +1996,27 @@ a.flex-next {
   position: absolute;
   top: -10%;
   right: -35px;
-  background-color: transparent;
+  background-color: rgba(41, 50, 81, 1);
   height: 15px;
   width: 15px;
   margin-top: -13px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 3px solid #eee;
+  border: 3px solid rgba(41, 50, 81, 1);;
 }
 #process .dot_bt {
   position: absolute;
   bottom: -10%;
   right: -35px;
-  background-color: transparent;
+  background-color: rgba(41, 50, 81, 1);
   height: 15px;
   width: 15px;
   margin-bottom: -13px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 3px solid #eee;
+  border: 3px solid rgba(41, 50, 81, 1);;
 }
 @media (max-width:768px) {
 	#process .line {
@@ -3336,4 +3417,6 @@ footer .footer_bottom {
 .icon-facebook:before { content: "\e62f"; }
 .icon-sina-weibo:before { content: "\e666"; }
 .icon-github:before { content: "\e636"; }
+.icon-bicycle:before { content: "\f206"; }
+
 /*---------------- END ------------------------*/

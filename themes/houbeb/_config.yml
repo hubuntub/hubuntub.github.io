@@ -1,10 +1,10 @@
 # config
-cover: /img/bg_img.jpg
-logo: /img/logo.png
+cover: /img/road.jpg
+logo: /img/bicycle.svg
 top_saying:
-- title: YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.
-- content: 每一个不曾起舞的日子都是对生命的辜负。
-bottom_saying: 虽然还没想好写点什么，但是总觉得这里放句话比较和谐。
+- title: A good programmer is someone who always looks both ways before crossing a one-way street.
+  content: Doug Linder
+bottom_saying: 
 # Content
 excerpt_link: Read More
 
@@ -14,10 +14,10 @@ highlightjs: vs
 
 #Works
 works:
-- works_name: AAA
+- works_name: UX/DESIGN
+  works_url: /resume.md
+- works_name: CRAFT
   works_url: /
-- works_name: BBB
-  works_url: /atom.xml
 
 #duoshuo name
 duoshuo:
@@ -29,22 +29,39 @@ disqus_shortname:
 fancybox: true
 
 # Miscellaneous
-github: https://github.com/
-twitter: https://twitter.com/
-facebook: https://www.facebook.com/
-google: https://google.com/
-weibo: http://weibo.com/
+github: https://github.com/hubuntub
+twitter: https://twitter.com/hubuntub
 
 #about  timeline
 timeline:
 - num: 1
-  word: 2014/06/12-Start
+  word: AGFA-HEALTHCARE
+  period: FEVRIER - JUILLET 2011
+  place: Bordeaux
 - num: 2
-  word: 2014/11/29-XXX
+  word: NEXTEP
+  period: JANVIER - OCTOBRE 2012
+  place: Bordeaux
 - num: 3
-  word: 2015/02/18-DDD
+  word: CM2D 
+  period: NOVEMBRE 2012 - AVRIL 2014
+  place: Bordeaux
 - num: 4
-  word: More
+  word: GENERAL ELECTRIC REAL ESTATE
+  period: MAI 2014 - MAI 2015
+  place: Paris, La Défense
+- num: 5
+  word: CRISTALLIN
+  period: AVRIL 2015
+  place: Troyes
+- num: 6
+  word: ARGUS DE LA PRESSE 
+  period: JUIN 2015 - JUIN 2016
+  place: Paris
+- num: 7
+  word: ING DIRECT / SCRUM MASTER 
+  period: JUIN 2016 - PRÉSENT
+  place: Paris
 
 #Links
 links:
