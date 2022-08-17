@@ -2,9 +2,9 @@
 cover: /img/road.jpg
 logo: /img/bicycle.svg
 top_saying:
-- title: A good programmer is someone who always looks both ways before crossing a one-way street.
-  content: Doug Linder
-bottom_saying: 
+  - title: A good programmer is someone who always looks both ways before crossing a one-way street.
+    content: Doug Linder
+bottom_saying:
 # Content
 excerpt_link: Read More
 
@@ -14,10 +14,10 @@ highlightjs: vs
 
 #Works
 works:
-- works_name: UX/DESIGN
-  works_url: /resume.md
-- works_name: CRAFT
-  works_url: /
+  - works_name: UX/DESIGN
+    works_url: /resume.md
+  - works_name: CRAFT
+    works_url: /
 
 #duoshuo name
 duoshuo:
@@ -30,42 +30,52 @@ fancybox: true
 
 # Miscellaneous
 github: https://github.com/hubuntub
-twitter: https://twitter.com/hubuntub
 
 #about  timeline
 timeline:
-- num: 1
-  word: AGFA-HEALTHCARE
-  period: FEVRIER - JUILLET 2011
-  place: Bordeaux
-- num: 2
-  word: NEXTEP
-  period: JANVIER - OCTOBRE 2012
-  place: Bordeaux
-- num: 3
-  word: CM2D 
-  period: NOVEMBRE 2012 - AVRIL 2014
-  place: Bordeaux
-- num: 4
-  word: GENERAL ELECTRIC REAL ESTATE
-  period: MAI 2014 - MAI 2015
-  place: Paris, La Défense
-- num: 5
-  word: CRISTALLIN
-  period: AVRIL 2015
-  place: Troyes
-- num: 6
-  word: ARGUS DE LA PRESSE 
-  period: JUIN 2015 - JUIN 2016
-  place: Paris
-- num: 7
-  word: ING DIRECT / SCRUM MASTER 
-  period: JUIN 2016 - PRÉSENT
-  place: Paris
-
+  - num: 1
+    word: AGFA-HEALTHCARE
+    period: FEBRUARY - JULY 2011
+    place: Bordeaux
+  - num: 2
+    word: NEXTEP
+    period: JANUARY - OCTOBER 2012
+    place: BORDEAUX
+  - num: 3
+    word: CM2D
+    period: NOVEMBER 2012 - APRIL 2014
+    place: BORDEAUX
+  - num: 4
+    word: GENERAL ELECTRIC REAL ESTATE
+    period: MAY 2014 - MAY 2015
+    place: PARIS, La Défense
+  - num: 5
+    word: CRISTALLIN
+    period: APRIL 2015
+    place: Troyes
+  - num: 6
+    word: ARGUS DE LA PRESSE
+    period: JUNE 2015 - JUNE 2016
+    place: PARIS
+  - num: 7
+    word: ING DIRECT
+    period: JUNE 2016 - AUGUST 2018
+    place: PARIS
+  - num: 8
+    word: ORANGE
+    period: SEPTEMBER 2018 - JUNE 2019
+    place: ARCEUIL
+  - num: 9
+    word: AODOCS
+    period: JULY 2019 - MARCH 2020
+    place: PARIS
+  - num: 10
+    word: GLOBEPAYROLL - SDWORX
+    period: JUNE 2020 - Present
+    place: PARIS
 #Links
 links:
-- name: Kieran
-  link: http://go.kieran.top/
-- name: Name
-  link: http://domain.com/
+  - name: Kieran
+    link: http://go.kieran.top/
+  - name: Name
+    link: http://domain.com/

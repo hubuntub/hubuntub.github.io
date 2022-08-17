@@ -1,3 +1,3 @@
 ---
-title: Développeuse Java/Javascript, Craftwoman, UX fan
+title: Developer Java/Javascript, Craft woman, UX fan
 ---
